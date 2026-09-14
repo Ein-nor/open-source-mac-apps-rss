@@ -1,35 +1,35 @@
 # Open Source Mac Apps → RSS
 
-Erzeugt einen RSS-2.0-Feed aus `applications.json` von
+Generates an RSS 2.0 feed from `applications.json` in
 `serhii-londar/open-source-mac-os-apps`.
 
-## Verwendung
+## Usage
 
-Das Repository kann als eigenes GitHub-Repository verwendet werden. Die GitHub Action
-läuft täglich und veröffentlicht `feed.xml` über GitHub Pages.
+The repository can be used as a standalone GitHub repository. The GitHub Action
+runs daily and publishes `feed.xml` via GitHub Pages.
 
-### Einrichtung
+### Set-up
 
-1. Dateien dieses Projekts in ein neues GitHub-Repository kopieren.
-2. In GitHub unter **Settings → Pages** bei *Build and deployment*:
+1. Copy the files from this project into a new GitHub repository.
+2. In GitHub, go to **Settings → Pages** and under *Build and deployment*:
    - **Source:** GitHub Actions
-3. Unter **Settings → Actions → General** sicherstellen, dass Actions Schreibzugriff
-   auf den Repository-Inhalt haben, falls GitHub Pages/Deployment danach fragt.
-4. Nach dem ersten erfolgreichen Workflow liegt der Feed unter:
+3. Under **Settings → Actions → General**, ensure that Actions have write access
+   to the repository’s contents, should GitHub Pages/Deployment request this.
+4. After the first successful workflow, the feed will be available at:
 
-   `https://<DEIN-USERNAME>.github.io/<REPO>/feed.xml`
+   `https://<YOUR-USERNAME>.github.io/<REPO>/feed.xml`
 
-Den Feed kannst du anschließend in NetNewsWire, Reeder, Feedly, FreshRSS usw. abonnieren.
+You can then subscribe to the feed in NetNewsWire, Reeder, Feedly, FreshRSS, etc.
 
-## Was der Feed macht
+## What the feed does
 
-- lädt die aktuelle `applications.json` des Originalprojekts
-- erkennt neue Einträge anhand ihrer `repo_url`
-- erzeugt nur für neu hinzugekommene Apps RSS-Einträge
-- speichert den bisher bekannten Stand in `state.json`
-- enthält beim ersten Lauf **keine tausenden alten Apps**, sondern markiert den aktuellen
-  Bestand nur als bekannt
-- neue Apps werden beim nächsten Lauf automatisch veröffentlicht
-- bei jedem Lauf werden maximal 50 neue Apps veröffentlicht
+- loads the latest `applications.json` from the original project
+- identifies new entries based on their `repo_url`
+- generates RSS entries only for newly added apps
+- saves the current known status in `state.json`
+- on the first run, it does **not contain thousands of old apps**, but simply marks the current
+  list as known
+- new apps are automatically published on the next run
+- a maximum of 50 new apps are published on each run
 
-Die Quelle wird nicht verändert.
+The source is not modified.
