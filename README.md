@@ -1,43 +1,35 @@
 # Open Source Mac Apps → RSS
 
-RSS generator for `serhii-londar/open-source-mac-os-apps`.
+Erzeugt einen RSS-2.0-Feed aus `applications.json` von
+`serhii-londar/open-source-mac-os-apps`.
 
-## Features
+## Verwendung
 
-- New apps, updates and removed apps
-- Categories and separate category feeds
-- App icon as an RSS enclosure if `icon_url` is provided
-- Persistent state in `state.json`
-- No flood on first run: the first run only creates a baseline
-- **GitHub Action once an hour**
-- Manual workflow start
-- GitHub Pages for the XML feeds
+Das Repository kann als eigenes GitHub-Repository verwendet werden. Die GitHub Action
+läuft täglich und veröffentlicht `feed.xml` über GitHub Pages.
 
-## Set-up
+### Einrichtung
 
-1. Create a new GitHub repository, e.g. `open-source-mac-apps-rss`.
-2. Push all files from this package to the default branch (usually `main`).
-3. Under `Settings → Pages`, select **GitHub Actions** as the source.
-4. The `Update RSS feeds` action runs automatically **once an hour**, at 17 minutes past the hour (UTC), and can also be triggered manually.
+1. Dateien dieses Projekts in ein neues GitHub-Repository kopieren.
+2. In GitHub unter **Settings → Pages** bei *Build and deployment*:
+   - **Source:** GitHub Actions
+3. Unter **Settings → Actions → General** sicherstellen, dass Actions Schreibzugriff
+   auf den Repository-Inhalt haben, falls GitHub Pages/Deployment danach fragt.
+4. Nach dem ersten erfolgreichen Workflow liegt der Feed unter:
 
-The feed URL is automatically generated from the repository name and owner:
+   `https://<DEIN-USERNAME>.github.io/<REPO>/feed.xml`
 
-`https://OWNER.github.io/REPOSITORY/feeds/feed.xml`
+Den Feed kannst du anschließend in NetNewsWire, Reeder, Feedly, FreshRSS usw. abonnieren.
 
-Example:
+## Was der Feed macht
 
-`https://meinname.github.io/open-source-mac-apps-rss/feeds/feed.xml`
+- lädt die aktuelle `applications.json` des Originalprojekts
+- erkennt neue Einträge anhand ihrer `repo_url`
+- erzeugt nur für neu hinzugekommene Apps RSS-Einträge
+- speichert den bisher bekannten Stand in `state.json`
+- enthält beim ersten Lauf **keine tausenden alten Apps**, sondern markiert den aktuellen
+  Bestand nur als bekannt
+- neue Apps werden beim nächsten Lauf automatisch veröffentlicht
+- bei jedem Lauf werden maximal 50 neue Apps veröffentlicht
 
-## Important
-
-GitHub Actions cron jobs are not precise to the second. `17 * * * *` means approximately once an hour; GitHub may delay the actual start time slightly.
-
-On the first run, all existing apps are saved as a baseline only. Only afterwards will new, modified or removed apps appear in the RSS feed.
-
-Category feeds are located under `feeds/category-*.xml`. Categories such as `Editors / Text` are standardised to `editors-text` for the filename.
-
-On Linux, you can edit files using `vi`, for example:
-
-```bash
-vi generate_feed.py
-```
+Die Quelle wird nicht verändert.

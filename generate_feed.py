@@ -1,169 +1,164 @@
 #!/usr/bin/env python3
-from __future__ import annotations
-import hashlib, json, mimetypes, os, re, sys, urllib.request
+import json
+import os
+import urllib.request
 from datetime import datetime, timezone
+from email.utils import format_datetime
+from html import escape
 from pathlib import Path
-from xml.sax.saxutils import escape
 
 SOURCE_URL = "https://raw.githubusercontent.com/serhii-londar/open-source-mac-os-apps/master/applications.json"
-ROOT = Path(__file__).resolve().parent
-STATE_FILE = ROOT / "state.json"
-FEEDS_DIR = ROOT / "feeds"
-MAX_EVENTS = 500
-MAX_FEED_ITEMS = 100
+FEED_URL = os.environ.get("FEED_URL", "https://example.github.io/open-source-mac-apps-rss/feed.xml")
+SOURCE_PAGE = "https://serhii-londar.github.io/open-source-mac-os-apps/"
+STATE_FILE = Path("state.json")
+FEED_FILE = Path("feed.xml")
+MAX_NEW_ITEMS = 50
 
-def now():
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+def fetch_json(url):
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "open-source-mac-apps-rss/1.0"}
+    )
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return json.load(response)
 
-def load_source():
-    req = urllib.request.Request(SOURCE_URL, headers={"User-Agent": "open-source-mac-apps-rss/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+def app_id(app):
+    return app.get("repo_url") or app.get("official_site") or app.get("title", "").strip()
+
+def app_date(app):
+    # applications.json currently does not expose a reliable per-app date.
+    # Therefore new entries get the time of discovery.
+    return datetime.now(timezone.utc)
 
 def load_state():
     if not STATE_FILE.exists():
-        return {"version": 2, "initialized": False, "apps": {}, "events": []}
-    return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        return {"known": [], "items": []}
+    try:
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {"known": [], "items": []}
 
-def normalize(raw):
-    a = dict(raw)
-    a["title"] = str(a.get("title") or a.get("name") or "Untitled").strip()
-    a["repo_url"] = str(a.get("repo_url") or "").strip()
-    a["official_site"] = str(a.get("official_site") or "").strip()
-    a["icon_url"] = str(a.get("icon_url") or "").strip()
-    a["short_description"] = str(a.get("short_description") or a.get("description") or "").strip()
-    cats = a.get("categories") or []
-    if isinstance(cats, str):
-        cats = [cats]
-    a["categories"] = sorted({str(x).strip() for x in cats if str(x).strip()}, key=str.casefold)
-    return a
+def save_state(state):
+    STATE_FILE.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
+    )
 
-def app_id(a):
-    identity = a.get("repo_url") or a.get("official_site") or a.get("title") or "unknown"
-    return hashlib.sha256(identity.lower().encode()).hexdigest()[:20]
+def make_item(app, discovered):
+    title = app.get("title", "Unnamed app")
+    description = app.get("short_description", "")
+    repo = app.get("repo_url", "")
+    official = app.get("official_site", "")
+    categories = app.get("categories") or []
+    languages = app.get("languages") or []
 
-def signature(a):
-    keys = ["title", "short_description", "categories", "repo_url", "official_site", "icon_url", "languages", "screenshots"]
-    payload = json.dumps({k: a.get(k) for k in keys}, ensure_ascii=False, sort_keys=True)
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    links = []
+    if repo:
+        links.append(f'<p><strong>GitHub:</strong> <a href="{escape(repo, quote=True)}">{escape(repo)}</a></p>')
+    if official and official.startswith(("http://", "https://")) and official != repo:
+        links.append(f'<p><strong>Website:</strong> <a href="{escape(official, quote=True)}">{escape(official)}</a></p>')
 
-def slug(s):
-    x = re.sub(r"[^a-z0-9]+", "-", s.strip().lower())
-    return re.sub(r"-+", "-", x).strip("-") or "uncategorized"
+    meta = []
+    if categories:
+        meta.append("Kategorien: " + ", ".join(categories))
+    if languages:
+        meta.append("Sprachen: " + ", ".join(languages))
+    if meta:
+        links.append("<p>" + escape(" · ".join(meta)) + "</p>")
 
-def link(a):
-    return a.get("official_site") or a.get("repo_url") or SOURCE_URL
+    guid = repo or app_id(app)
+    return {
+        "title": title,
+        "description": description + "".join(links),
+        "link": repo or official or SOURCE_PAGE,
+        "guid": guid,
+        "pubDate": format_datetime(discovered),
+    }
 
-def event_title(e):
-    return {"new": "New: ", "updated": "Updated: ", "removed": "Removed: "}[e["type"]] + e["title"]
+def load_existing_items():
+    if not FEED_FILE.exists():
+        return []
+    text = FEED_FILE.read_text(encoding="utf-8")
+    marker = "<item>"
+    items = []
+    for chunk in text.split(marker)[1:]:
+        item_xml = marker + chunk.split("</item>", 1)[0] + "</item>"
+        def tag(name):
+            start = item_xml.find(f"<{name}>")
+            end = item_xml.find(f"</{name}>")
+            if start == -1 or end == -1:
+                return ""
+            return item_xml[start + len(name) + 2:end]
+        items.append({
+            "title": tag("title"),
+            "description": tag("description"),
+            "link": tag("link"),
+            "guid": tag("guid"),
+            "pubDate": tag("pubDate"),
+        })
+    return items
 
-def event_description(e):
-    a = e.get("app") or {}
-    prefix = {
-        "new": "A new application was added to the source directory.",
-        "updated": "An application entry changed in the source directory.",
-        "removed": "An application was removed from the source directory."
-    }[e["type"]]
-    parts = [prefix]
-    if a.get("short_description"):
-        parts.append(a["short_description"])
-    if a.get("categories"):
-        parts.append("Categories: " + ", ".join(a["categories"]) + ".")
-    return " ".join(parts)
+def xml_item(item):
+    return f"""  <item>
+    <title>{escape(item["title"])}</title>
+    <description><![CDATA[{item["description"]}]]></description>
+    <link>{escape(item["link"], quote=True)}</link>
+    <guid isPermaLink="false">{escape(item["guid"])}</guid>
+    <pubDate>{escape(item["pubDate"])}</pubDate>
+  </item>"""
 
-def item_xml(e):
-    a = e.get("app") or {}
-    lines = [
-        "    <item>",
-        "      <title>" + escape(event_title(e)) + "</title>",
-        "      <description>" + escape(event_description(e)) + "</description>",
-        "      <link>" + escape(link(a)) + "</link>",
-        '      <guid isPermaLink="false">open-source-mac-apps-rss:' + escape(e["id"]) + "</guid>",
-        "      <pubDate>" + e["timestamp"] + "</pubDate>",
-    ]
-    for c in a.get("categories") or []:
-        lines.append("      <category>" + escape(str(c)) + "</category>")
-    icon = str(a.get("icon_url") or "")
-    if icon.startswith(("http://", "https://")):
-        mime = mimetypes.guess_type(icon.split("?", 1)[0])[0] or "image/jpeg"
-        lines.append('      <enclosure url="' + escape(icon, {'"': "&quot;"}) + '" length="0" type="' + escape(mime) + '" />')
-    lines.append("    </item>")
-    return "\n".join(lines)
-
-def write_feed(path, title, description, url, events):
-    items = "\n".join(item_xml(e) for e in events[:MAX_FEED_ITEMS])
-    xml = "\n".join([
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0">',
-        "  <channel>",
-        "    <title>" + escape(title) + "</title>",
-        "    <description>" + escape(description) + "</description>",
-        "    <link>" + escape(url) + "</link>",
-        "    <lastBuildDate>" + now() + "</lastBuildDate>",
-        "    <language>en</language>",
-        items,
-        "  </channel>",
-        "</rss>",
-        ""
-    ])
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(xml, encoding="utf-8")
+def write_feed(items):
+    now = format_datetime(datetime.now(timezone.utc))
+    body = "\n".join(xml_item(i) for i in items)
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Open Source Mac Apps – Neue Apps</title>
+    <description>Neue Open-Source-Mac-Apps aus der Sammlung von serhii-londar.</description>
+    <link>{escape(SOURCE_PAGE, quote=True)}</link>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="{escape(FEED_URL, quote=True)}" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{now}</lastBuildDate>
+{body}
+  </channel>
+</rss>
+"""
+    FEED_FILE.write_text(xml, encoding="utf-8")
 
 def main():
-    raw = load_source()
-    raw_apps = raw.get("applications", raw.get("apps", [])) if isinstance(raw, dict) else raw
-    current = {}
-    for raw_app in raw_apps:
-        if isinstance(raw_app, dict):
-            a = normalize(raw_app)
-            current[app_id(a)] = a
-
+    data = fetch_json(SOURCE_URL)
+    apps = data.get("applications", [])
     state = load_state()
-    previous = state.get("apps", {})
-    events = list(state.get("events", []))
-    timestamp = now()
+    known = set(state.get("known", []))
 
-    if not state.get("initialized"):
-        state["initialized"] = True
-    else:
-        for key, a in current.items():
-            sig = signature(a)
-            if key not in previous:
-                kind = "new"
-            elif previous[key].get("signature") != sig:
-                kind = "updated"
-            else:
-                continue
-            events.append({"id": f"{timestamp}-{key}-{kind}", "type": kind, "timestamp": timestamp, "title": a["title"], "app": a})
-        for key, old in previous.items():
-            if key not in current:
-                a = old.get("app") or {}
-                events.append({"id": f"{timestamp}-{key}-removed", "type": "removed", "timestamp": timestamp, "title": a.get("title") or key, "app": a})
+    # First run: establish baseline without flooding the RSS reader.
+    if not known:
+        state["known"] = [app_id(a) for a in apps if app_id(a)]
+        state["items"] = []
+        save_state(state)
+        write_feed([])
+        print(f"Initial baseline created: {len(apps)} apps.")
+        return
 
-    state["apps"] = {k: {"signature": signature(a), "app": a} for k, a in current.items()}
-    state["events"] = events[-MAX_EVENTS:]
-    state["last_run"] = timestamp
-    state["source_url"] = SOURCE_URL
-    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    new_apps = [a for a in apps if app_id(a) and app_id(a) not in known]
 
-    FEEDS_DIR.mkdir(parents=True, exist_ok=True)
-    base = os.environ.get("FEED_BASE_URL", "https://OWNER.github.io/REPOSITORY").rstrip("/")
-    ordered = list(reversed(state["events"]))
-    write_feed(FEEDS_DIR / "feed.xml", "Open Source Mac Apps – Changes",
-               "New, updated and removed applications from the open-source-mac-apps directory.",
-               base + "/feeds/feed.xml", ordered)
+    existing = load_existing_items()
+    new_items = [make_item(a, app_date(a)) for a in new_apps[:MAX_NEW_ITEMS]]
 
-    categories = sorted({c for e in state["events"] for c in (e.get("app") or {}).get("categories", [])}, key=str.casefold)
-    for c in categories:
-        ce = [e for e in ordered if c in (e.get("app") or {}).get("categories", [])]
-        name = "category-" + slug(c) + ".xml"
-        write_feed(FEEDS_DIR / name, "Open Source Mac Apps – " + c,
-                   "Changes for the " + c + " category.", base + "/feeds/" + name, ce)
-    print(f"Processed {len(current)} apps; generated {1 + len(categories)} feed(s).")
+    # newest first
+    all_items = list(reversed(new_items)) + existing
+    all_items = all_items[:100]
+
+    for app in new_apps:
+        ident = app_id(app)
+        if ident:
+            known.add(ident)
+
+    state["known"] = sorted(known)
+    state["items"] = [i["guid"] for i in all_items]
+    save_state(state)
+    write_feed(all_items)
+
+    print(f"Found {len(new_apps)} new apps; published {len(new_items)}.")
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as exc:
-        print("ERROR:", exc, file=sys.stderr)
-        raise
+    main()
