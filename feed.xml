@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel>
-<title>Open Source Mac Apps – Neue Apps</title>
-<description>Neue Open-Source-Mac-Apps</description>
-<link>https://serhii-londar.github.io/open-source-mac-os-apps/</link>
-</channel></rss>
+<rss version="2.0">
+  <channel>
+    <title>Open Source Mac Apps – Neue Apps</title>
+    <description>Neue Open-Source-Mac-Apps aus der Sammlung von serhii-londar.</description>
+    <link>https://serhii-londar.github.io/open-source-mac-os-apps/</link>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://Ein-nor.github.io/open-source-mac-apps-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 15 Sep 2026 11:45:06 +0000</lastBuildDate>
+
+  </channel>
+</rss>
