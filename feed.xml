@@ -1,11 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source Mac Apps – Neue Apps</title>
     <description>Neue Open-Source-Mac-Apps aus der Sammlung von serhii-londar.</description>
     <link>https://serhii-londar.github.io/open-source-mac-os-apps/</link>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://Ein-nor.github.io/open-source-mac-apps-rss/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 28 Sep 2026 13:56:26 +0000</lastBuildDate>
-
+    <atom:link href="https://Ein-nor.github.io/open-source-mac-apps-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 24 Oct 2026 12:02:59 +0000</lastBuildDate>
+    <item>
+      <title>Mimer</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/hasanjafri/Mimer/main/Sources/Mimer/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="Mimer" width="64" height="64" /></p><p>Fast, private, developer-first clipboard manager with type-aware history, ⌘K transforms, and history encrypted at rest.</p><p><strong>GitHub:</strong> <a href="https://github.com/hasanjafri/Mimer">https://github.com/hasanjafri/Mimer</a></p><p><strong>Website:</strong> <a href="https://mimer.hasanjafri.com/">https://mimer.hasanjafri.com/</a></p><p>Kategorien: productivity, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/hasanjafri/Mimer</link>
+      <guid isPermaLink="false">https://github.com/hasanjafri/Mimer</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>mysa</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/alishansnsn/mysa/main/logoicon.png" alt="mysa" width="64" height="64" /></p><p>A macOS menu bar app for quick breathing breaks, with a frosted screen overlay and handwritten quotes.</p><p><strong>GitHub:</strong> <a href="https://github.com/alishansnsn/mysa">https://github.com/alishansnsn/mysa</a></p><p>Kategorien: productivity, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/alishansnsn/mysa</link>
+      <guid isPermaLink="false">https://github.com/alishansnsn/mysa</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tintpad</title>
+      <description><![CDATA[<p>Hotkey launcher that opens your terminal at the right repo with a coding agent (Claude Code, Codex) already running.</p><p><strong>GitHub:</strong> <a href="https://github.com/sorkila/tintpad">https://github.com/sorkila/tintpad</a></p><p><strong>Website:</strong> <a href="https://tintpad.com">https://tintpad.com</a></p><p>Kategorien: terminal, development · Sprachen: swift</p>]]></description>
+      <link>https://github.com/sorkila/tintpad</link>
+      <guid isPermaLink="false">https://github.com/sorkila/tintpad</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>MaCursor</title>
+      <description><![CDATA[<p>Custom cursor themes for macOS. Replace any system cursor with custom artwork, with 75+ ready-to-apply themes and Windows .cur/.ani import.</p><p><strong>GitHub:</strong> <a href="https://github.com/writronic/MaCursor">https://github.com/writronic/MaCursor</a></p><p><strong>Website:</strong> <a href="https://writronic.com/macursor/">https://writronic.com/macursor/</a></p><p>Kategorien: utilities, system · Sprachen: swift, objective_c</p>]]></description>
+      <link>https://github.com/writronic/MaCursor</link>
+      <guid isPermaLink="false">https://github.com/writronic/MaCursor</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>LeftHandy</title>
+      <description><![CDATA[<p>Left-handed mouse and cursor support: mirrors system cursors so the tip points naturally and swaps left/right click in real time.</p><p><strong>GitHub:</strong> <a href="https://github.com/writronic/LeftHandy">https://github.com/writronic/LeftHandy</a></p><p><strong>Website:</strong> <a href="https://writronic.com/lefthandy/">https://writronic.com/lefthandy/</a></p><p>Kategorien: utilities, system · Sprachen: swift, objective_c</p>]]></description>
+      <link>https://github.com/writronic/LeftHandy</link>
+      <guid isPermaLink="false">https://github.com/writronic/LeftHandy</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better Resource Monitor</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/alexx855/better-resource-monitor/main/src-tauri/icons/icon.png" alt="Better Resource Monitor" width="64" height="64" /></p><p>Lightweight macOS menu bar monitor for CPU, memory, storage, GPU, and network usage.</p><p><strong>GitHub:</strong> <a href="https://github.com/alexx855/better-resource-monitor">https://github.com/alexx855/better-resource-monitor</a></p><p><strong>Website:</strong> <a href="https://better-resource-monitor.alexpedersen.dev/">https://better-resource-monitor.alexpedersen.dev/</a></p><p>Kategorien: system, utilities, menubar · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/alexx855/better-resource-monitor</link>
+      <guid isPermaLink="false">https://github.com/alexx855/better-resource-monitor</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Usage</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Bread-bang/claude-usage/main/docs/icon.png" alt="Claude Usage" width="64" height="64" /></p><p>Menu bar app that shows your Claude Code usage — current session, weekly, Sonnet, and credits.</p><p><strong>GitHub:</strong> <a href="https://github.com/Bread-bang/claude-usage">https://github.com/Bread-bang/claude-usage</a></p><p>Kategorien: menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Bread-bang/claude-usage</link>
+      <guid isPermaLink="false">https://github.com/Bread-bang/claude-usage</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Presspeech</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/rcourtman/presspeech/main/icon/presspeech-512.png" alt="Presspeech" width="64" height="64" /></p><p>Push-to-talk dictation for Apple Silicon Macs. Hold a key, speak, release — the transcript pastes at the cursor in about 100 ms, fully on-device.</p><p><strong>GitHub:</strong> <a href="https://github.com/rcourtman/presspeech">https://github.com/rcourtman/presspeech</a></p><p><strong>Website:</strong> <a href="https://rcourtman.github.io/presspeech/">https://rcourtman.github.io/presspeech/</a></p><p>Kategorien: utilities, menubar · Sprachen: python, swift</p>]]></description>
+      <link>https://github.com/rcourtman/presspeech</link>
+      <guid isPermaLink="false">https://github.com/rcourtman/presspeech</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Offsend</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Offsend/Offsend/main/apps/macos/assets/icon.png" alt="Offsend" width="64" height="64" /></p><p>Local-first menu bar app that prepares projects, files, and clipboard text for AI tools by detecting and masking sensitive data.</p><p><strong>GitHub:</strong> <a href="https://github.com/Offsend/Offsend">https://github.com/Offsend/Offsend</a></p><p><strong>Website:</strong> <a href="https://offsend.io">https://offsend.io</a></p><p>Kategorien: menubar, security, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Offsend/Offsend</link>
+      <guid isPermaLink="false">https://github.com/Offsend/Offsend</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>WindowCycle</title>
+      <description><![CDATA[<p>A focused macOS current-app window switcher with a visible panel.</p><p><strong>GitHub:</strong> <a href="https://github.com/WhiteMinds/window-cycle">https://github.com/WhiteMinds/window-cycle</a></p><p>Kategorien: window-management, keyboard, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/WhiteMinds/window-cycle</link>
+      <guid isPermaLink="false">https://github.com/WhiteMinds/window-cycle</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lurar</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/lsjoberg/lurar/main/docs/branding/app-icon.svg" alt="Lurar" width="64" height="64" /></p><p>Menu-bar parametric EQ for headphones. Loads the AutoEq catalog and applies it system-wide via Apple&#x27;s Core Audio Process Tap — no virtual audio driver.</p><p><strong>GitHub:</strong> <a href="https://github.com/lsjoberg/lurar">https://github.com/lsjoberg/lurar</a></p><p><strong>Website:</strong> <a href="https://lurar.app/">https://lurar.app/</a></p><p>Kategorien: audio, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/lsjoberg/lurar</link>
+      <guid isPermaLink="false">https://github.com/lsjoberg/lurar</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cate</title>
+      <description><![CDATA[<p>IDE built on an infinite zoomable canvas. Editor, terminal, browser, and AI agent panels float in a spatial workspace instead of tabs.</p><p><strong>GitHub:</strong> <a href="https://github.com/0-AI-UG/cate">https://github.com/0-AI-UG/cate</a></p><p><strong>Website:</strong> <a href="https://cate.cero-ai.com">https://cate.cero-ai.com</a></p><p>Kategorien: ide · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/0-AI-UG/cate</link>
+      <guid isPermaLink="false">https://github.com/0-AI-UG/cate</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cluxo</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/kykim79/Cluxo/main/Sources/Cluxo/Assets.xcassets/AppIcon.appiconset/icon_512x512.png" alt="Cluxo" width="64" height="64" /></p><p>Menu bar app that highlights your mouse cursor for screencasts, presentations, and pair programming.</p><p><strong>GitHub:</strong> <a href="https://github.com/kykim79/Cluxo">https://github.com/kykim79/Cluxo</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/kykim79/Cluxo</link>
+      <guid isPermaLink="false">https://github.com/kykim79/Cluxo</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vuvuzela</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/TadelUnso/vuvuzela/main/assets/icon.png" alt="Vuvuzela" width="64" height="64" /></p><p>FIFA World Cup 2026 desktop widget with live scores, group standings, and the knockout bracket.</p><p><strong>GitHub:</strong> <a href="https://github.com/TadelUnso/vuvuzela">https://github.com/TadelUnso/vuvuzela</a></p><p>Kategorien: menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/TadelUnso/vuvuzela</link>
+      <guid isPermaLink="false">https://github.com/TadelUnso/vuvuzela</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Featherbar</title>
+      <description><![CDATA[<p>Featherweight menu bar system monitor showing CPU, RAM, power, and temperature in two color-coded lines.</p><p><strong>GitHub:</strong> <a href="https://github.com/nim444/featherbar">https://github.com/nim444/featherbar</a></p><p><strong>Website:</strong> <a href="https://crates.io/crates/featherbar">https://crates.io/crates/featherbar</a></p><p>Kategorien: system, utilities, menubar · Sprachen: rust</p>]]></description>
+      <link>https://github.com/nim444/featherbar</link>
+      <guid isPermaLink="false">https://github.com/nim444/featherbar</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mole Widget</title>
+      <description><![CDATA[<p>Lightweight macOS desktop system monitor with live CPU, memory, disk, network, battery, and process metrics, managed from the menu bar.</p><p><strong>GitHub:</strong> <a href="https://github.com/TadelUnso/mole-widget">https://github.com/TadelUnso/mole-widget</a></p><p>Kategorien: menubar, system · Sprachen: swift</p>]]></description>
+      <link>https://github.com/TadelUnso/mole-widget</link>
+      <guid isPermaLink="false">https://github.com/TadelUnso/mole-widget</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>TopOff</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/ihazgithub/TopOff/main/docs/assets/topoff-icon-transparent.png" alt="TopOff" width="64" height="64" /></p><p>Menu bar app for Homebrew — a full beer mug when packages are fresh, half a mug when it&#x27;s time to refill.</p><p><strong>GitHub:</strong> <a href="https://github.com/ihazgithub/TopOff">https://github.com/ihazgithub/TopOff</a></p><p>Kategorien: menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/ihazgithub/TopOff</link>
+      <guid isPermaLink="false">https://github.com/ihazgithub/TopOff</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>LanGuard</title>
+      <description><![CDATA[<p>Wi-Fi off when wired LAN active, back on when unplugged. Edge-based, wake-aware, no admin required.</p><p><strong>GitHub:</strong> <a href="https://github.com/roypadina/LanGuard">https://github.com/roypadina/LanGuard</a></p><p>Kategorien: utilities, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/roypadina/LanGuard</link>
+      <guid isPermaLink="false">https://github.com/roypadina/LanGuard</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fader</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/pantafive/fader/main/site/icon.png" alt="Fader" width="64" height="64" /></p><p>Menu bar volume mixer with per-app volume, one-click audio output switching, and Bluetooth headphone control.</p><p><strong>GitHub:</strong> <a href="https://github.com/pantafive/fader">https://github.com/pantafive/fader</a></p><p><strong>Website:</strong> <a href="https://fader.pantafive.dev">https://fader.pantafive.dev</a></p><p>Kategorien: audio, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/pantafive/fader</link>
+      <guid isPermaLink="false">https://github.com/pantafive/fader</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dusty</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/yagcioglutoprak/dusty/main/Dusty/Dusty/Assets.xcassets/AppIcon.appiconset/icon_512.png" alt="Dusty" width="64" height="64" /></p><p>Menu bar disk cleaner that only deletes from a fixed allowlist and shows every path and size before removing anything.</p><p><strong>GitHub:</strong> <a href="https://github.com/yagcioglutoprak/dusty">https://github.com/yagcioglutoprak/dusty</a></p><p><strong>Website:</strong> <a href="https://toprak.sh/dusty/">https://toprak.sh/dusty/</a></p><p>Kategorien: utilities, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/yagcioglutoprak/dusty</link>
+      <guid isPermaLink="false">https://github.com/yagcioglutoprak/dusty</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skilly</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/tryskilly/skilly/main/leanring-buddy/Assets.xcassets/AppIcon.appiconset/1024-mac.png" alt="Skilly" width="64" height="64" /></p><p>Voice-first AI tutor that watches your screen and points at on-screen UI elements to teach creative software like Blender, Figma, and Premiere.</p><p><strong>GitHub:</strong> <a href="https://github.com/tryskilly/skilly">https://github.com/tryskilly/skilly</a></p><p><strong>Website:</strong> <a href="https://tryskilly.app">https://tryskilly.app</a></p><p>Kategorien: productivity, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/tryskilly/skilly</link>
+      <guid isPermaLink="false">https://github.com/tryskilly/skilly</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sleepless</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Aboudjem/Sleepless/main/assets/Sleepless-1024.png" alt="Sleepless" width="64" height="64" /></p><p>Keep your MacBook awake with the lid closed, on battery, with no external display, with a battery-floor auto-off.</p><p><strong>GitHub:</strong> <a href="https://github.com/Aboudjem/Sleepless">https://github.com/Aboudjem/Sleepless</a></p><p><strong>Website:</strong> <a href="https://aboudjem.github.io/Sleepless/">https://aboudjem.github.io/Sleepless/</a></p><p>Kategorien: menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Aboudjem/Sleepless</link>
+      <guid isPermaLink="false">https://github.com/Aboudjem/Sleepless</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>usage</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/aqua5230/usage/main/docs/readme-logo.png" alt="usage" width="64" height="64" /></p><p>macOS menu bar app that pins Claude Code, Codex, and Antigravity CLI quota and burn rate to the screen, read from local session files.</p><p><strong>GitHub:</strong> <a href="https://github.com/aqua5230/usage">https://github.com/aqua5230/usage</a></p><p><strong>Website:</strong> <a href="https://aqua5230.github.io/usage/">https://aqua5230.github.io/usage/</a></p><p>Kategorien: menubar, development · Sprachen: python</p>]]></description>
+      <link>https://github.com/aqua5230/usage</link>
+      <guid isPermaLink="false">https://github.com/aqua5230/usage</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>quokka</title>
+      <description><![CDATA[<p>Inspect and clean a USB-connected iPhone from the macOS terminal: storage, apps, media, syslog. No jailbreak.</p><p><strong>GitHub:</strong> <a href="https://github.com/dutradotdev/quokka">https://github.com/dutradotdev/quokka</a></p><p>Kategorien: ios--macos, terminal, utilities · Sprachen: rust</p>]]></description>
+      <link>https://github.com/dutradotdev/quokka</link>
+      <guid isPermaLink="false">https://github.com/dutradotdev/quokka</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stargazer Bar</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/jazzyalex/stargazer-bar/main/GHMenuStars/Assets.xcassets/AppIcon.appiconset/icon_1024.png" alt="Stargazer Bar" width="64" height="64" /></p><p>Track one public GitHub repo&#x27;s stars and release downloads from the menu bar.</p><p><strong>GitHub:</strong> <a href="https://github.com/jazzyalex/stargazer-bar">https://github.com/jazzyalex/stargazer-bar</a></p><p><strong>Website:</strong> <a href="https://jazzyalex.github.io/stargazer-bar/">https://jazzyalex.github.io/stargazer-bar/</a></p><p>Kategorien: development, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/jazzyalex/stargazer-bar</link>
+      <guid isPermaLink="false">https://github.com/jazzyalex/stargazer-bar</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Markup</title>
+      <description><![CDATA[<p>Reader-first, native macOS Markdown editor: renders notes like a web page and edits on demand, with a vault, backlinks, graph view and full-text search.</p><p><strong>GitHub:</strong> <a href="https://github.com/oratis/Markup">https://github.com/oratis/Markup</a></p><p>Kategorien: markdown · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/oratis/Markup</link>
+      <guid isPermaLink="false">https://github.com/oratis/Markup</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mac Sai</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/iliyami/MacSai/main/assets/app_icon.png" alt="Mac Sai" width="64" height="64" /></p><p>Free, open-source CleanMyMac alternative built with Swift 6 and SwiftUI. Smart Scan, junk cleanup, malware scanner, uninstaller with leftover detection, Space Lens treemap, duplicates, and a live menu bar monitor.</p><p><strong>GitHub:</strong> <a href="https://github.com/iliyami/MacSai">https://github.com/iliyami/MacSai</a></p><p>Kategorien: system, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/iliyami/MacSai</link>
+      <guid isPermaLink="false">https://github.com/iliyami/MacSai</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clave</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/antasphere/clave/main/resources/icon.png" alt="Clave" width="64" height="64" /></p><p>macOS app for managing multiple Claude Code sessions in parallel, with split/grid layouts, session groups, SSH remote sessions, a git panel, and usage analytics.</p><p><strong>GitHub:</strong> <a href="https://github.com/antasphere/clave">https://github.com/antasphere/clave</a></p><p>Kategorien: development · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/antasphere/clave</link>
+      <guid isPermaLink="false">https://github.com/antasphere/clave</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Live Translator</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/umutcetinkaya/live-translator/main/assets/icon.png" alt="Live Translator" width="64" height="64" /></p><p>Real-time on-screen translation of any system audio (YouTube, podcasts, meetings) using OpenAI or Google Gemini.</p><p><strong>GitHub:</strong> <a href="https://github.com/umutcetinkaya/live-translator">https://github.com/umutcetinkaya/live-translator</a></p><p>Kategorien: utilities, menubar · Sprachen: python</p>]]></description>
+      <link>https://github.com/umutcetinkaya/live-translator</link>
+      <guid isPermaLink="false">https://github.com/umutcetinkaya/live-translator</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unfoldly</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Unary-Works/Unfoldly/main/docs/assets/brand/unfoldly-logo.png" alt="Unfoldly" width="64" height="64" /></p><p>Local-first AI file search for macOS that indexes selected personal files on-device with embeddings, visual search, and local GGUF models.</p><p><strong>GitHub:</strong> <a href="https://github.com/Unary-Works/Unfoldly">https://github.com/Unary-Works/Unfoldly</a></p><p><strong>Website:</strong> <a href="https://www.unfoldly.io/">https://www.unfoldly.io/</a></p><p>Kategorien: productivity, utilities · Sprachen: typescript, rust, python</p>]]></description>
+      <link>https://github.com/Unary-Works/Unfoldly</link>
+      <guid isPermaLink="false">https://github.com/Unary-Works/Unfoldly</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notepad++ for Mac</title>
+      <description><![CDATA[<p><img src="https://nextpad.org/assets/images/icons/npp_128px_light.png" alt="Notepad++ for Mac" width="64" height="64" /></p><p>Native macOS port of the Notepad++ code editor — no Wine, no emulation; runs natively on Apple Silicon and Intel Macs.</p><p><strong>GitHub:</strong> <a href="https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos">https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos</a></p><p><strong>Website:</strong> <a href="https://nextpad.org">https://nextpad.org</a></p><p>Kategorien: editors, text, development · Sprachen: cpp, objective_c</p>]]></description>
+      <link>https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos</link>
+      <guid isPermaLink="false">https://github.com/nextpad-plus-plus/nextpad-plus-plus-macos</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>CrossMacro</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/alper-han/CrossMacro/main/src/CrossMacro.UI/Assets/mouse-icon.png" alt="CrossMacro" width="64" height="64" /></p><p>A cross-platform macro recorder, player, editor, and text expansion tool.</p><p><strong>GitHub:</strong> <a href="https://github.com/alper-han/CrossMacro">https://github.com/alper-han/CrossMacro</a></p><p>Kategorien: utilities, keyboard, productivity · Sprachen: c_sharp</p>]]></description>
+      <link>https://github.com/alper-han/CrossMacro</link>
+      <guid isPermaLink="false">https://github.com/alper-han/CrossMacro</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notchly</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Notchly/Notchly/main/Notchly/Resources/Assets.xcassets/AppIcon.appiconset/logo_256x256.png" alt="Notchly" width="64" height="64" /></p><p>Lightweight native macOS app that turns the MacBook notch into an interactive space for music controls, battery states, gestures, and custom HUDs.</p><p><strong>GitHub:</strong> <a href="https://github.com/Notchly/Notchly">https://github.com/Notchly/Notchly</a></p><p><strong>Website:</strong> <a href="https://notchly.xyz">https://notchly.xyz</a></p><p>Kategorien: utilities, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Notchly/Notchly</link>
+      <guid isPermaLink="false">https://github.com/Notchly/Notchly</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenQuack</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/larryxiao/openquack/main/docs/images/icon-512.png" alt="OpenQuack" width="64" height="64" /></p><p>Local-only voice dictation for macOS — press a hotkey, speak, and the transcript is pasted at the cursor. Runs WhisperKit on Apple Silicon with no telemetry.</p><p><strong>GitHub:</strong> <a href="https://github.com/larryxiao/openquack">https://github.com/larryxiao/openquack</a></p><p><strong>Website:</strong> <a href="https://larryxiao.github.io/openquack">https://larryxiao.github.io/openquack</a></p><p>Kategorien: utilities, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/larryxiao/openquack</link>
+      <guid isPermaLink="false">https://github.com/larryxiao/openquack</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Whisky</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/frankea/Whisky/main/Whisky/Assets.xcassets/AppIcon.appiconset/512%402x.png" alt="Whisky" width="64" height="64" /></p><p>Native SwiftUI Wine wrapper for macOS with D3DMetal/DXVK backends and built-in launcher compatibility (Steam, Epic, EA App, Battle.net). Active community fork of the archived whisky-app/whisky.</p><p><strong>GitHub:</strong> <a href="https://github.com/frankea/Whisky">https://github.com/frankea/Whisky</a></p><p>Kategorien: games, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/frankea/Whisky</link>
+      <guid isPermaLink="false">https://github.com/frankea/Whisky</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>WhatCable</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/darrylmorley/whatcable/main/docs/icon.png" alt="WhatCable" width="64" height="64" /></p><p>Tells you, in plain English, what each USB-C cable plugged into your Mac can do — speed, power, and e-marker info — from the menu bar.</p><p><strong>GitHub:</strong> <a href="https://github.com/darrylmorley/whatcable">https://github.com/darrylmorley/whatcable</a></p><p><strong>Website:</strong> <a href="https://whatcable.uk">https://whatcable.uk</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/darrylmorley/whatcable</link>
+      <guid isPermaLink="false">https://github.com/darrylmorley/whatcable</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bzz</title>
+      <description><![CDATA[<p>Automatic keyboard layout switcher (RU↔EN). Detects mistyped words like &quot;ghbdtn&quot; and replaces with &quot;привет&quot; on the fly. Open-source replacement for the abandoned Punto Switcher.</p><p><strong>GitHub:</strong> <a href="https://github.com/zlopixatel/bzz">https://github.com/zlopixatel/bzz</a></p><p>Kategorien: utilities, productivity · Sprachen: go</p>]]></description>
+      <link>https://github.com/zlopixatel/bzz</link>
+      <guid isPermaLink="false">https://github.com/zlopixatel/bzz</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>TablePro</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/TableProApp/TablePro/main/TablePro/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" alt="TablePro" width="64" height="64" /></p><p>Native macOS database client for MySQL, PostgreSQL, SQLite, MongoDB, Redis, and 15+ more.</p><p><strong>GitHub:</strong> <a href="https://github.com/TableProApp/TablePro">https://github.com/TableProApp/TablePro</a></p><p><strong>Website:</strong> <a href="https://tablepro.app">https://tablepro.app</a></p><p>Kategorien: database · Sprachen: swift</p>]]></description>
+      <link>https://github.com/TableProApp/TablePro</link>
+      <guid isPermaLink="false">https://github.com/TableProApp/TablePro</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>MakLock</title>
+      <description><![CDATA[<p>Free macOS menu bar app that locks applications with Touch ID, Apple Watch proximity, or password using a full-screen blur overlay.</p><p><strong>GitHub:</strong> <a href="https://github.com/dutkiewiczmaciej/MakLock">https://github.com/dutkiewiczmaciej/MakLock</a></p><p><strong>Website:</strong> <a href="https://dutkiewiczmaciej.github.io/MakLock/">https://dutkiewiczmaciej.github.io/MakLock/</a></p><p>Kategorien: security, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/dutkiewiczmaciej/MakLock</link>
+      <guid isPermaLink="false">https://github.com/dutkiewiczmaciej/MakLock</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Statistics</title>
+      <description><![CDATA[<p>Native macOS menu bar app for monitoring Claude Code session usage, token costs, and Anthropic subscription limits in real time.</p><p><strong>GitHub:</strong> <a href="https://github.com/sj719045032/claude-statistics">https://github.com/sj719045032/claude-statistics</a></p><p><strong>Website:</strong> <a href="https://claudestatistics.vercel.app/">https://claudestatistics.vercel.app/</a></p><p>Kategorien: menubar, utilities, development · Sprachen: swift</p>]]></description>
+      <link>https://github.com/sj719045032/claude-statistics</link>
+      <guid isPermaLink="false">https://github.com/sj719045032/claude-statistics</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Core-Monitor</title>
+      <description><![CDATA[<p>Open-source macOS system monitor with menu bar stats, a full dashboard, optional fan control, and Touch Bar widgets.</p><p><strong>GitHub:</strong> <a href="https://github.com/offyotto/Core-Monitor">https://github.com/offyotto/Core-Monitor</a></p><p>Kategorien: system, menubar, touch-bar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/offyotto/Core-Monitor</link>
+      <guid isPermaLink="false">https://github.com/offyotto/Core-Monitor</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>md-preview</title>
+      <description><![CDATA[<p>Ultra-lightweight Markdown preview app (~1MB binary) built with Rust, with offline syntax highlighting, dark mode, and cross-platform support.</p><p><strong>GitHub:</strong> <a href="https://github.com/vorojar/md-preview">https://github.com/vorojar/md-preview</a></p><p><strong>Website:</strong> <a href="https://vorojar.github.io/md-preview/">https://vorojar.github.io/md-preview/</a></p><p>Kategorien: markdown · Sprachen: rust</p>]]></description>
+      <link>https://github.com/vorojar/md-preview</link>
+      <guid isPermaLink="false">https://github.com/vorojar/md-preview</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>PureMac</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/momenbasel/PureMac/main/PureMac/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="PureMac" width="64" height="64" /></p><p>Free macOS cleaner with zero telemetry. Cleans system caches, Xcode junk, Homebrew cache, mail attachments, and finds large or old files. Supports scheduled auto-cleaning.</p><p><strong>GitHub:</strong> <a href="https://github.com/momenbasel/PureMac">https://github.com/momenbasel/PureMac</a></p><p>Kategorien: utilities, system · Sprachen: swift</p>]]></description>
+      <link>https://github.com/momenbasel/PureMac</link>
+      <guid isPermaLink="false">https://github.com/momenbasel/PureMac</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>LiteEdit</title>
+      <description><![CDATA[<p>Fast, native macOS code editor under 1 MB built with Swift and AppKit, no Electron.</p><p><strong>GitHub:</strong> <a href="https://github.com/arietan/lite-edit">https://github.com/arietan/lite-edit</a></p><p><strong>Website:</strong> <a href="https://arietan.github.io/lite-edit/">https://arietan.github.io/lite-edit/</a></p><p>Kategorien: editors, text · Sprachen: swift</p>]]></description>
+      <link>https://github.com/arietan/lite-edit</link>
+      <guid isPermaLink="false">https://github.com/arietan/lite-edit</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anima</title>
+      <description><![CDATA[<p>Native macOS companion for Claude Code with per-project ASCII familiars, nim token economy, and cross-session watcher. Built with Tauri v2.</p><p><strong>GitHub:</strong> <a href="https://github.com/btangonan/anima">https://github.com/btangonan/anima</a></p><p>Kategorien: development, utilities · Sprachen: rust, javascript</p>]]></description>
+      <link>https://github.com/btangonan/anima</link>
+      <guid isPermaLink="false">https://github.com/btangonan/anima</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>HardwareVisualizer</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/shm11C3/HardwareVisualizer/develop/app-icon.png" alt="HardwareVisualizer" width="64" height="64" /></p><p>A cross-platform hardware monitor with real-time metrics, historical insights, and a customizable dashboard.</p><p><strong>GitHub:</strong> <a href="https://github.com/shm11C3/HardwareVisualizer">https://github.com/shm11C3/HardwareVisualizer</a></p><p><strong>Website:</strong> <a href="https://hardviz.com/">https://hardviz.com/</a></p><p>Kategorien: system, utilities · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/shm11C3/HardwareVisualizer</link>
+      <guid isPermaLink="false">https://github.com/shm11C3/HardwareVisualizer</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>ClearanceKit</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/craigjbass/clearancekit/main/docs/logo.png" alt="ClearanceKit" width="64" height="64" /></p><p>File-access control for macOS that protects sensitive user data from supply-chain attacks using Endpoint Security.</p><p><strong>GitHub:</strong> <a href="https://github.com/craigjbass/clearancekit">https://github.com/craigjbass/clearancekit</a></p><p><strong>Website:</strong> <a href="https://craigjbass.github.io/clearancekit">https://craigjbass.github.io/clearancekit</a></p><p>Kategorien: security · Sprachen: swift</p>]]></description>
+      <link>https://github.com/craigjbass/clearancekit</link>
+      <guid isPermaLink="false">https://github.com/craigjbass/clearancekit</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>EnviousWispr</title>
+      <description><![CDATA[<p>Free on-device AI dictation for macOS with Whisper and Parakeet speech models on Apple Silicon.</p><p><strong>GitHub:</strong> <a href="https://github.com/saurabhav88/EnviousWispr">https://github.com/saurabhav88/EnviousWispr</a></p><p><strong>Website:</strong> <a href="https://enviouswispr.com/">https://enviouswispr.com/</a></p><p>Kategorien: audio · Sprachen: swift</p>]]></description>
+      <link>https://github.com/saurabhav88/EnviousWispr</link>
+      <guid isPermaLink="false">https://github.com/saurabhav88/EnviousWispr</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claudoscope</title>
+      <description><![CDATA[<p><img src="https://claudoscope.com/logo.webp" alt="Claudoscope" width="64" height="64" /></p><p>Menu bar app for Claude Code session analytics with real-time secret detection, config health linting, and token/cost tracking.</p><p><strong>GitHub:</strong> <a href="https://github.com/cordwainersmith/claudoscope">https://github.com/cordwainersmith/claudoscope</a></p><p><strong>Website:</strong> <a href="https://claudoscope.com/">https://claudoscope.com/</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/cordwainersmith/claudoscope</link>
+      <guid isPermaLink="false">https://github.com/cordwainersmith/claudoscope</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safari MCP</title>
+      <description><![CDATA[<p>Native Safari browser automation for AI agents on macOS, exposing 98 tools via AppleScript and JavaScript.</p><p><strong>GitHub:</strong> <a href="https://github.com/achiya-automation/safari-mcp">https://github.com/achiya-automation/safari-mcp</a></p><p>Kategorien: browser · Sprachen: javascript</p>]]></description>
+      <link>https://github.com/achiya-automation/safari-mcp</link>
+      <guid isPermaLink="false">https://github.com/achiya-automation/safari-mcp</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
+    </item>
   </channel>
 </rss>
