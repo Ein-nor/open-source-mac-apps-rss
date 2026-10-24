@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Source Mac Apps – RSS Feed</title>
+  <link rel="alternate" type="application/rss+xml" title="Open Source Mac Apps – Neue Apps" href="feed.xml">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --primary: #58a6ff;
+      --accent: #238636;
+      --accent-hover: #2ea043;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 620px;
+      margin: 24px;
+      padding: 32px;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    h1 {
+      color: var(--heading);
+      margin-top: 0;
+      font-size: 1.75rem;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .feed-box {
+      margin: 24px 0;
+      padding: 16px;
+      background: #0d1117;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .feed-url {
+      font-family: monospace;
+      font-size: 0.95rem;
+      color: var(--primary);
+      word-break: break-all;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #fff;
+      background-color: var(--accent);
+      border: 1px solid rgba(240, 246, 252, 0.1);
+      transition: background-color 0.15s;
+    }
+    .btn:hover {
+      background-color: var(--accent-hover);
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #8b949e;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1> Open Source Mac Apps RSS</h1>
+    <p>
+      Dieser RSS-Feed informiert stündlich über neu hinzugefügte Apps in der Sammlung von
+      <a href="https://github.com/serhii-londar/open-source-mac-os-apps" target="_blank" rel="noopener">serhii-londar/open-source-mac-os-apps</a>.
+    </p>
+
+    <div class="feed-box">
+      <span class="feed-url" id="feedUrl">feed.xml</span>
+      <a class="btn" href="feed.xml" id="feedLink">Feed abonnieren</a>
+    </div>
+
+    <p>
+      Kopiere den Link einfach in deinen RSS-Reader wie NetNewsWire, Reeder, Feedly oder FreshRSS.
+    </p>
+
+    <div class="meta">
+      Quelle: <a href="https://github.com/serhii-londar/open-source-mac-os-apps" target="_blank" rel="noopener">open-source-mac-os-apps</a> · Automatisch aktualisiert via GitHub Actions.
+    </div>
+  </div>
+
+  <script>
+    const fullUrl = new URL("feed.xml", window.location.href).href;
+    document.getElementById("feedUrl").textContent = fullUrl;
+    document.getElementById("feedLink").href = fullUrl;
+  </script>
+</body>
+</html>

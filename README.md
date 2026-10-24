@@ -6,7 +6,7 @@ Generates an RSS 2.0 feed from `applications.json` in
 ## Usage
 
 The repository can be used as a standalone GitHub repository. The GitHub Action
-runs daily and publishes `feed.xml` via GitHub Pages.
+runs hourly and publishes `feed.xml` via GitHub Pages whenever new apps are merged into the main branch.
 
 ### Set-up
 
