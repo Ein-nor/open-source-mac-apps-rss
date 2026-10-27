@@ -5,7 +5,119 @@
     <description>Neue Open-Source-Mac-Apps aus der Sammlung von serhii-londar.</description>
     <link>https://serhii-londar.github.io/open-source-mac-os-apps/</link>
     <atom:link href="https://Ein-nor.github.io/open-source-mac-apps-rss/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 24 Oct 2026 12:02:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 13:17:41 +0000</lastBuildDate>
+    <item>
+      <title>KeyEcho</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/ZacharyL2/KeyEcho/main/src-tauri/icons/128x128@2x.png" alt="KeyEcho" width="64" height="64" /></p><p>Plays recorded mechanical keyboard sounds as you type.</p><p><strong>GitHub:</strong> <a href="https://github.com/ZacharyL2/KeyEcho">https://github.com/ZacharyL2/KeyEcho</a></p><p><strong>Website:</strong> <a href="https://keyecho.app">https://keyecho.app</a></p><p>Kategorien: audio, keyboard · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/ZacharyL2/KeyEcho</link>
+      <guid isPermaLink="false">https://github.com/ZacharyL2/KeyEcho</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Strata Files</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/cristipufu/strata-files/main/docs/icon.png" alt="Strata Files" width="64" height="64" /></p><p>Fast, keyboard-first file manager and Finder alternative with instant search, live folder sizes, a disk usage map and dual pane.</p><p><strong>GitHub:</strong> <a href="https://github.com/cristipufu/strata-files">https://github.com/cristipufu/strata-files</a></p><p><strong>Website:</strong> <a href="https://stratafiles.app">https://stratafiles.app</a></p><p>Kategorien: finder, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/cristipufu/strata-files</link>
+      <guid isPermaLink="false">https://github.com/cristipufu/strata-files</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clip’M</title>
+      <description><![CDATA[<p><img src="https://frazer.github.io/clipM/images/icon.png" alt="Clip’M" width="64" height="64" /></p><p>Clipboard manager with searchable history, previews, reusable snippets, and paste transformations.</p><p><strong>GitHub:</strong> <a href="https://github.com/Frazer/clipM">https://github.com/Frazer/clipM</a></p><p><strong>Website:</strong> <a href="https://frazer.github.io/clipM/">https://frazer.github.io/clipM/</a></p><p>Kategorien: utilities, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Frazer/clipM</link>
+      <guid isPermaLink="false">https://github.com/Frazer/clipM</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GithubStarsManager</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/AmintaCCCP/GithubStarsManager/main/assets/readme/brand/logo.png" alt="GithubStarsManager" width="64" height="64" /></p><p>AI-powered, local-first app to organize your GitHub stars with auto-summaries, tags, semantic search, and release tracking.</p><p><strong>GitHub:</strong> <a href="https://github.com/AmintaCCCP/GithubStarsManager">https://github.com/AmintaCCCP/GithubStarsManager</a></p><p><strong>Website:</strong> <a href="https://gsm.aminta.top">https://gsm.aminta.top</a></p><p>Kategorien: git · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/AmintaCCCP/GithubStarsManager</link>
+      <guid isPermaLink="false">https://github.com/AmintaCCCP/GithubStarsManager</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>JoeBro</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/joexk1/JoeBro/main/README_assets/logo.png" alt="JoeBro" width="64" height="64" /></p><p>Native AI workspace with a local Python backend. Chat, documents, memory, MCP tools and deep research, using local models or any API.</p><p><strong>GitHub:</strong> <a href="https://github.com/joexk1/JoeBro">https://github.com/joexk1/JoeBro</a></p><p><strong>Website:</strong> <a href="https://joexk1.github.io/joebro/">https://joexk1.github.io/joebro/</a></p><p>Kategorien: productivity, chat · Sprachen: swift, python</p>]]></description>
+      <link>https://github.com/joexk1/JoeBro</link>
+      <guid isPermaLink="false">https://github.com/joexk1/JoeBro</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arroxy</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/src/renderer/src/assets/App-icon-HQ.png" alt="Arroxy" width="64" height="64" /></p><p>Video and audio downloader powered by yt-dlp, with a built-in browser, playlists, subtitles and download profiles.</p><p><strong>GitHub:</strong> <a href="https://github.com/antonio-orionus/Arroxy">https://github.com/antonio-orionus/Arroxy</a></p><p><strong>Website:</strong> <a href="https://arroxy.com/">https://arroxy.com/</a></p><p>Kategorien: downloader · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/antonio-orionus/Arroxy</link>
+      <guid isPermaLink="false">https://github.com/antonio-orionus/Arroxy</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kopi</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/code-devanshu/kopi/main/apps/desktop/src-tauri/icons/icon.png" alt="Kopi" width="64" height="64" /></p><p>Local-first clipboard manager with searchable history, pinboards and plain-text paste. Skips password manager copies.</p><p><strong>GitHub:</strong> <a href="https://github.com/code-devanshu/kopi">https://github.com/code-devanshu/kopi</a></p><p><strong>Website:</strong> <a href="https://kopi.devanshuverma.in">https://kopi.devanshuverma.in</a></p><p>Kategorien: productivity, utilities · Sprachen: rust, typescript, swift</p>]]></description>
+      <link>https://github.com/code-devanshu/kopi</link>
+      <guid isPermaLink="false">https://github.com/code-devanshu/kopi</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>LayoutKeeper</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/tumingke0/LayoutKeeper/main/docs/images/icon.png" alt="LayoutKeeper" width="64" height="64" /></p><p>Remembers window layouts per external monitor and restores position, size and Space (macOS 26+) on reconnect, with DDC brightness keys on Apple Silicon.</p><p><strong>GitHub:</strong> <a href="https://github.com/tumingke0/LayoutKeeper">https://github.com/tumingke0/LayoutKeeper</a></p><p>Kategorien: window-management, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/tumingke0/LayoutKeeper</link>
+      <guid isPermaLink="false">https://github.com/tumingke0/LayoutKeeper</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Earshot</title>
+      <description><![CDATA[<p>Live on-device transcription of any app you pick, with speaker names in Microsoft Teams.</p><p><strong>GitHub:</strong> <a href="https://github.com/Bouliw/earshot">https://github.com/Bouliw/earshot</a></p><p>Kategorien: audio, menubar, productivity · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Bouliw/earshot</link>
+      <guid isPermaLink="false">https://github.com/Bouliw/earshot</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Termstead</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/pkhorenyan/termstead/main/docs/images/icon.png" alt="Termstead" width="64" height="64" /></p><p>Native SSH client with a session tree, jump hosts, split panes and SFTP beside the terminal.</p><p><strong>GitHub:</strong> <a href="https://github.com/pkhorenyan/termstead">https://github.com/pkhorenyan/termstead</a></p><p><strong>Website:</strong> <a href="https://khorenyan.com/termstead/">https://khorenyan.com/termstead/</a></p><p>Kategorien: terminal · Sprachen: swift</p>]]></description>
+      <link>https://github.com/pkhorenyan/termstead</link>
+      <guid isPermaLink="false">https://github.com/pkhorenyan/termstead</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClean</title>
+      <description><![CDATA[<p><img src="https://leoanimesh.github.io/OpenClean/apple-touch-icon.png" alt="OpenClean" width="64" height="64" /></p><p>Free Mac cleaner that explains each item, quarantines what it removes for undo, and includes an app uninstaller, disk map and menu bar monitor.</p><p><strong>GitHub:</strong> <a href="https://github.com/leoAnimesh/OpenClean">https://github.com/leoAnimesh/OpenClean</a></p><p><strong>Website:</strong> <a href="https://leoanimesh.github.io/OpenClean/">https://leoanimesh.github.io/OpenClean/</a></p><p>Kategorien: utilities, system · Sprachen: swift</p>]]></description>
+      <link>https://github.com/leoAnimesh/OpenClean</link>
+      <guid isPermaLink="false">https://github.com/leoAnimesh/OpenClean</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bulchimbeon</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/s3onghyun/bulchimbeon/main/build-icons/AppIcon.iconset/icon_256x256.png" alt="Bulchimbeon" width="64" height="64" /></p><p>Menu bar app that keeps the Mac awake only while AI coding agents are working, with lid-closed mode and heat and battery safeguards.</p><p><strong>GitHub:</strong> <a href="https://github.com/s3onghyun/bulchimbeon">https://github.com/s3onghyun/bulchimbeon</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/s3onghyun/bulchimbeon</link>
+      <guid isPermaLink="false">https://github.com/s3onghyun/bulchimbeon</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nogrammerly</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/gaurabh-pei/nogrammerly/main/Assets/Nogrammerly-icon.png" alt="Nogrammerly" width="64" height="64" /></p><p>On-device writing assistant that checks spelling, grammar and tone and rewrites text in any app, using Apple Intelligence.</p><p><strong>GitHub:</strong> <a href="https://github.com/gaurabh-pei/nogrammerly">https://github.com/gaurabh-pei/nogrammerly</a></p><p>Kategorien: productivity, text · Sprachen: swift</p>]]></description>
+      <link>https://github.com/gaurabh-pei/nogrammerly</link>
+      <guid isPermaLink="false">https://github.com/gaurabh-pei/nogrammerly</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ftop</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Nongfsq/ftop/main/docs/media/icon.png" alt="ftop" width="64" height="64" /></p><p>Floating system monitor for Apple Silicon that adapts its layout to any window size, showing per-core usage and frequency, GPU, memory pressure, and network.</p><p><strong>GitHub:</strong> <a href="https://github.com/Nongfsq/ftop">https://github.com/Nongfsq/ftop</a></p><p>Kategorien: system, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Nongfsq/ftop</link>
+      <guid isPermaLink="false">https://github.com/Nongfsq/ftop</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>JET Pilot</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/unxsist/jet-pilot/main/src-tauri/icons/icon.png" alt="JET Pilot" width="64" height="64" /></p><p>Open-source Kubernetes desktop client for working across clusters, namespaces and cloud accounts, with multi-cluster views, a resource graph, structured logs and a built-in kubectl terminal.</p><p><strong>GitHub:</strong> <a href="https://github.com/unxsist/jet-pilot">https://github.com/unxsist/jet-pilot</a></p><p><strong>Website:</strong> <a href="https://jet-pilot.app">https://jet-pilot.app</a></p><p>Kategorien: other-development · Sprachen: rust, typescript, vue</p>]]></description>
+      <link>https://github.com/unxsist/jet-pilot</link>
+      <guid isPermaLink="false">https://github.com/unxsist/jet-pilot</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muster</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/josefchen/muster/main/docs/media/icon.png" alt="Muster" width="64" height="64" /></p><p>Menu bar app that monitors Claude Code, Codex and Cursor sessions, answers Claude Code and Codex permission prompts from alerts, and switches sessions with Option-Tab.</p><p><strong>GitHub:</strong> <a href="https://github.com/josefchen/muster">https://github.com/josefchen/muster</a></p><p><strong>Website:</strong> <a href="https://agentmuster.app">https://agentmuster.app</a></p><p>Kategorien: menubar, development · Sprachen: swift</p>]]></description>
+      <link>https://github.com/josefchen/muster</link>
+      <guid isPermaLink="false">https://github.com/josefchen/muster</guid>
+      <pubDate>Tue, 27 Oct 2026 13:17:41 +0000</pubDate>
+    </item>
     <item>
       <title>Mimer</title>
       <description><![CDATA[<p><img src="https://raw.githubusercontent.com/hasanjafri/Mimer/main/Sources/Mimer/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="Mimer" width="64" height="64" /></p><p>Fast, private, developer-first clipboard manager with type-aware history, ⌘K transforms, and history encrypted at rest.</p><p><strong>GitHub:</strong> <a href="https://github.com/hasanjafri/Mimer">https://github.com/hasanjafri/Mimer</a></p><p><strong>Website:</strong> <a href="https://mimer.hasanjafri.com/">https://mimer.hasanjafri.com/</a></p><p>Kategorien: productivity, utilities · Sprachen: swift</p>]]></description>
