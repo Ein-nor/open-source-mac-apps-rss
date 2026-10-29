@@ -5,7 +5,287 @@
     <description>Neue Open-Source-Mac-Apps aus der Sammlung von serhii-londar.</description>
     <link>https://serhii-londar.github.io/open-source-mac-os-apps/</link>
     <atom:link href="https://Ein-nor.github.io/open-source-mac-apps-rss/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 13:17:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 21:50:02 +0000</lastBuildDate>
+    <item>
+      <title>Local Transcriber</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/teconomix/local-transcriber/main/website/assets/icon.svg" alt="Local Transcriber" width="64" height="64" /></p><p>Menu bar app that records meetings and calls and transcribes them locally with Whisper and pyannote speaker recognition, with dictation into any app.</p><p><strong>GitHub:</strong> <a href="https://github.com/teconomix/local-transcriber">https://github.com/teconomix/local-transcriber</a></p><p><strong>Website:</strong> <a href="https://transcriber.teconomix.net">https://transcriber.teconomix.net</a></p><p>Kategorien: audio, menubar · Sprachen: swift, python</p>]]></description>
+      <link>https://github.com/teconomix/local-transcriber</link>
+      <guid isPermaLink="false">https://github.com/teconomix/local-transcriber</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alchemist Coder</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Alekla0126/alchemist-coder/main/apps/desktop/build/icon.png" alt="Alchemist Coder" width="64" height="64" /></p><p>Desktop app for Claude Code and Codex that shows every agent and subagent live, searches your coding-agent history and runs agents on local models.</p><p><strong>GitHub:</strong> <a href="https://github.com/Alekla0126/alchemist-coder">https://github.com/Alekla0126/alchemist-coder</a></p><p><strong>Website:</strong> <a href="https://coder.alekla.com">https://coder.alekla.com</a></p><p>Kategorien: development · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/Alekla0126/alchemist-coder</link>
+      <guid isPermaLink="false">https://github.com/Alekla0126/alchemist-coder</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Siliconed</title>
+      <description><![CDATA[<p>Local AI image generation and instruction-based image editing on Apple silicon, with Civitai LoRAs.</p><p><strong>GitHub:</strong> <a href="https://github.com/gwenn-ha-dev/Siliconed">https://github.com/gwenn-ha-dev/Siliconed</a></p><p><strong>Website:</strong> <a href="https://gwenn-ha-dev.github.io/Siliconed/">https://gwenn-ha-dev.github.io/Siliconed/</a></p><p>Kategorien: graphics, images · Sprachen: swift</p>]]></description>
+      <link>https://github.com/gwenn-ha-dev/Siliconed</link>
+      <guid isPermaLink="false">https://github.com/gwenn-ha-dev/Siliconed</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cellar</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/tuhage/Cellar/main/logo.jpg" alt="Cellar" width="64" height="64" /></p><p>Homebrew manager for formulae, casks, and services that previews what brew will change before it runs.</p><p><strong>GitHub:</strong> <a href="https://github.com/tuhage/Cellar">https://github.com/tuhage/Cellar</a></p><p>Kategorien: utilities, other-development · Sprachen: swift</p>]]></description>
+      <link>https://github.com/tuhage/Cellar</link>
+      <guid isPermaLink="false">https://github.com/tuhage/Cellar</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>writui</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/aakashns/writui/main/site/static/icon-512.png" alt="writui" width="64" height="64" /></p><p>A terminal Markdown writing app with a local encrypted vault, automatic saving, and named versions.</p><p><strong>GitHub:</strong> <a href="https://github.com/aakashns/writui">https://github.com/aakashns/writui</a></p><p><strong>Website:</strong> <a href="https://writui.com">https://writui.com</a></p><p>Kategorien: markdown, text, terminal · Sprachen: rust</p>]]></description>
+      <link>https://github.com/aakashns/writui</link>
+      <guid isPermaLink="false">https://github.com/aakashns/writui</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>FanPilot</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/zyvren/FanPilot/main/docs/screenshots/icon.png" alt="FanPilot" width="64" height="64" /></p><p>Fan control and temperature monitor for Apple Silicon Macs, with Auto Boost rules, custom curves, a fail-safe helper and a CLI.</p><p><strong>GitHub:</strong> <a href="https://github.com/zyvren/FanPilot">https://github.com/zyvren/FanPilot</a></p><p>Kategorien: system, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/zyvren/FanPilot</link>
+      <guid isPermaLink="false">https://github.com/zyvren/FanPilot</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>akou</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/GeiserX/akou/main/docs/images/icon.svg" alt="akou" width="64" height="64" /></p><p>Records calls and meetings, transcribes them on-device with speaker labels, and lets Claude Code or Codex question a call over MCP.</p><p><strong>GitHub:</strong> <a href="https://github.com/GeiserX/akou">https://github.com/GeiserX/akou</a></p><p><strong>Website:</strong> <a href="https://geiserx.github.io/akou/">https://geiserx.github.io/akou/</a></p><p>Kategorien: audio, productivity · Sprachen: typescript, rust</p>]]></description>
+      <link>https://github.com/GeiserX/akou</link>
+      <guid isPermaLink="false">https://github.com/GeiserX/akou</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>WolfClip</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/RakushkaTOP/wolfclip/main/docs/icon.png" alt="WolfClip" width="64" height="64" /></p><p>Win+V style clipboard history with search, filters, pins and instant paste into the app you were typing in.</p><p><strong>GitHub:</strong> <a href="https://github.com/RakushkaTOP/wolfclip">https://github.com/RakushkaTOP/wolfclip</a></p><p><strong>Website:</strong> <a href="https://rakushkatop.github.io/wolfclip/">https://rakushkatop.github.io/wolfclip/</a></p><p>Kategorien: productivity, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/RakushkaTOP/wolfclip</link>
+      <guid isPermaLink="false">https://github.com/RakushkaTOP/wolfclip</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>tern</title>
+      <description><![CDATA[<p>Native SSH client written in Rust on GPUI, with saved hosts, a command picker, SFTP browser, split panes, port forwards and encrypted sync.</p><p><strong>GitHub:</strong> <a href="https://github.com/your-moon/tern">https://github.com/your-moon/tern</a></p><p><strong>Website:</strong> <a href="https://tern.carrot-soft.tech">https://tern.carrot-soft.tech</a></p><p>Kategorien: terminal, development · Sprachen: rust</p>]]></description>
+      <link>https://github.com/your-moon/tern</link>
+      <guid isPermaLink="false">https://github.com/your-moon/tern</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>littleguys</title>
+      <description><![CDATA[<p><img src="https://www.littleguys.dev/images/app-icon.png" alt="littleguys" width="64" height="64" /></p><p>WhatsApp-style app for talking to your AI agents (OpenClaw, Hermes, Claude Code, Codex and any ACP agent).</p><p><strong>GitHub:</strong> <a href="https://github.com/herval/littleguys">https://github.com/herval/littleguys</a></p><p><strong>Website:</strong> <a href="https://www.littleguys.dev">https://www.littleguys.dev</a></p><p>Kategorien: chat, productivity · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/herval/littleguys</link>
+      <guid isPermaLink="false">https://github.com/herval/littleguys</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aman Check</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/MidZai/aman_check/main/Branding/Aman-Disk-brand/app-icon/AppIcon.appiconset/icon_256x256%402x.png" alt="Aman Check" width="64" height="64" /></p><p>Dated, honest condition report for a used Mac: locks, battery, SSD and guided hardware tests.</p><p><strong>GitHub:</strong> <a href="https://github.com/MidZai/aman_check">https://github.com/MidZai/aman_check</a></p><p><strong>Website:</strong> <a href="https://midzai.github.io/aman_check/">https://midzai.github.io/aman_check/</a></p><p>Kategorien: utilities, system · Sprachen: swift</p>]]></description>
+      <link>https://github.com/MidZai/aman_check</link>
+      <guid isPermaLink="false">https://github.com/MidZai/aman_check</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ParrotFlow</title>
+      <description><![CDATA[<p>Scriptable local dictation that uses the text on your screen to fix names, and your rules to format numbers, dates, and links.</p><p><strong>GitHub:</strong> <a href="https://github.com/znat/parrotflow">https://github.com/znat/parrotflow</a></p><p><strong>Website:</strong> <a href="https://parrotflow.io/">https://parrotflow.io/</a></p><p>Kategorien: audio, productivity, menubar · Sprachen: swift, python</p>]]></description>
+      <link>https://github.com/znat/parrotflow</link>
+      <guid isPermaLink="false">https://github.com/znat/parrotflow</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>StableBar</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/Seb-GRAF/StableBar/main/docs/images/icon.png" alt="StableBar" width="64" height="64" /></p><p>Customizable menu bar replacement with themes, widgets, popups and AeroSpace, yabai or OmniWM workspaces.</p><p><strong>GitHub:</strong> <a href="https://github.com/Seb-GRAF/StableBar">https://github.com/Seb-GRAF/StableBar</a></p><p><strong>Website:</strong> <a href="https://stablebar.app">https://stablebar.app</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/Seb-GRAF/StableBar</link>
+      <guid isPermaLink="false">https://github.com/Seb-GRAF/StableBar</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>JackMate</title>
+      <description><![CDATA[<p><img src="https://jackmate.app/assets/icon.png" alt="JackMate" width="64" height="64" /></p><p>JackMate is a native macOS app to start, configure and patch the JACK audio server, with a visual patchbay, saved studios and a menu bar mode.</p><p><strong>GitHub:</strong> <a href="https://github.com/zinc75/JackMate">https://github.com/zinc75/JackMate</a></p><p><strong>Website:</strong> <a href="https://jackmate.app">https://jackmate.app</a></p><p>Kategorien: audio · Sprachen: swift</p>]]></description>
+      <link>https://github.com/zinc75/JackMate</link>
+      <guid isPermaLink="false">https://github.com/zinc75/JackMate</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>TICS</title>
+      <description><![CDATA[<p><img src="https://www.yestoall.com/tics/icon.png" alt="TICS" width="64" height="64" /></p><p>Menu bar app that plays mechanical keyboard sounds as you type, and mouse sounds as you click, drag and scroll.</p><p><strong>GitHub:</strong> <a href="https://github.com/yestoall/tics">https://github.com/yestoall/tics</a></p><p><strong>Website:</strong> <a href="https://www.yestoall.com/tics/en">https://www.yestoall.com/tics/en</a></p><p>Kategorien: keyboard, audio, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/yestoall/tics</link>
+      <guid isPermaLink="false">https://github.com/yestoall/tics</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Posato</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/dees91/posato/main/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/forest.png" alt="Posato" width="64" height="64" /></p><p>Blocks the websites and apps you choose for a timed pause, now or on a schedule, with optional end-to-end encrypted sync to iPhone through iCloud.</p><p><strong>GitHub:</strong> <a href="https://github.com/dees91/posato">https://github.com/dees91/posato</a></p><p><strong>Website:</strong> <a href="https://posato.app">https://posato.app</a></p><p>Kategorien: productivity · Sprachen: kotlin, swift</p>]]></description>
+      <link>https://github.com/dees91/posato</link>
+      <guid isPermaLink="false">https://github.com/dees91/posato</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Swapjutsu</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/jutsuhq/swapjutsu-seedance-character-swap/main/docs/assets/icon.png" alt="Swapjutsu" width="64" height="64" /></p><p>Character swap for videos with Seedance 2.5 or Wan 2.2 Animate, with on-device preparation on Apple silicon.</p><p><strong>GitHub:</strong> <a href="https://github.com/jutsuhq/swapjutsu-seedance-character-swap">https://github.com/jutsuhq/swapjutsu-seedance-character-swap</a></p><p><strong>Website:</strong> <a href="https://jutsustudio.com/swapjutsu/">https://jutsustudio.com/swapjutsu/</a></p><p>Kategorien: video · Sprachen: swift</p>]]></description>
+      <link>https://github.com/jutsuhq/swapjutsu-seedance-character-swap</link>
+      <guid isPermaLink="false">https://github.com/jutsuhq/swapjutsu-seedance-character-swap</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jutsu Studio</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/jutsuhq/jutsu-studio/main/assets/icons/icon-1024.png" alt="Jutsu Studio" width="64" height="64" /></p><p>Unofficial Higgsfield client for creating AI videos and images with Seedance, Kling and Genjutsu, with every result kept on your disk.</p><p><strong>GitHub:</strong> <a href="https://github.com/jutsuhq/jutsu-studio">https://github.com/jutsuhq/jutsu-studio</a></p><p><strong>Website:</strong> <a href="https://jutsustudio.com/">https://jutsustudio.com/</a></p><p>Kategorien: video · Sprachen: swift</p>]]></description>
+      <link>https://github.com/jutsuhq/jutsu-studio</link>
+      <guid isPermaLink="false">https://github.com/jutsuhq/jutsu-studio</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pullo</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/jordan-cod/pullo/main/docs/media/icon.png" alt="Pullo" width="64" height="64" /></p><p>Your GitHub pull requests and Actions runs in the MacBook notch, with alerts when CI fails, a PR is approved or a review is requested.</p><p><strong>GitHub:</strong> <a href="https://github.com/jordan-cod/pullo">https://github.com/jordan-cod/pullo</a></p><p><strong>Website:</strong> <a href="https://pullo.jrdan.dev">https://pullo.jrdan.dev</a></p><p>Kategorien: git, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/jordan-cod/pullo</link>
+      <guid isPermaLink="false">https://github.com/jordan-cod/pullo</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Volt</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/LeulAria/VOLT/main/apps/docs/public/volt-icon-256.png" alt="Volt" width="64" height="64" /></p><p>Open-source AI code editor built on VS Code (Code - OSS) that runs Claude Code, Codex, OpenCode and Kimi over ACP, with hunk-level keep/undo of agent edits.</p><p><strong>GitHub:</strong> <a href="https://github.com/LeulAria/VOLT">https://github.com/LeulAria/VOLT</a></p><p><strong>Website:</strong> <a href="https://getvolt.dev">https://getvolt.dev</a></p><p>Kategorien: ide · Sprachen: typescript</p>]]></description>
+      <link>https://github.com/LeulAria/VOLT</link>
+      <guid isPermaLink="false">https://github.com/LeulAria/VOLT</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>OS-intent</title>
+      <description><![CDATA[<p>Learns how you work and puts your likely next action one key away, with every outward action behind a confirm panel.</p><p><strong>GitHub:</strong> <a href="https://github.com/vdk888/os-intent">https://github.com/vdk888/os-intent</a></p><p>Kategorien: productivity, utilities · Sprachen: swift, python</p>]]></description>
+      <link>https://github.com/vdk888/os-intent</link>
+      <guid isPermaLink="false">https://github.com/vdk888/os-intent</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>UMST</title>
+      <description><![CDATA[<p>Desktop calendar widget that shows Google, iCloud and Outlook calendars, Apple Reminders, Canvas, Blackboard, Moodle and other LMS deadlines, and Todoist, Asana and Trello tasks, with menu bar quick add.</p><p><strong>GitHub:</strong> <a href="https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool">https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool</a></p><p>Kategorien: menubar, productivity · Sprachen: swift</p>]]></description>
+      <link>https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool</link>
+      <guid isPermaLink="false">https://github.com/nicoleyangcoding/UMST-UltimateMacSchedulingTool</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>AURA Switcher</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/klbk/aura-switcher-app/main/icon.svg" alt="AURA Switcher" width="64" height="64" /></p><p>Fixes text typed in the wrong keyboard layout right after Space; double Shift converts the last word. A Punto Switcher alternative.</p><p><strong>GitHub:</strong> <a href="https://github.com/klbk/aura-switcher-app">https://github.com/klbk/aura-switcher-app</a></p><p><strong>Website:</strong> <a href="https://klbk.github.io/aura-switcher/">https://klbk.github.io/aura-switcher/</a></p><p>Kategorien: keyboard, menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/klbk/aura-switcher-app</link>
+      <guid isPermaLink="false">https://github.com/klbk/aura-switcher-app</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Çentik</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/YusufEmreYazici/Centik/main/docs/assets/icon.png" alt="Çentik" width="64" height="64" /></p><p>Turns the MacBook notch into a live island for music, system stats, an AI chat with your own Claude, Gemini or Ollama, clipboard history, a file shelf and meeting alerts.</p><p><strong>GitHub:</strong> <a href="https://github.com/YusufEmreYazici/Centik">https://github.com/YusufEmreYazici/Centik</a></p><p>Kategorien: menubar, utilities, productivity · Sprachen: swift</p>]]></description>
+      <link>https://github.com/YusufEmreYazici/Centik</link>
+      <guid isPermaLink="false">https://github.com/YusufEmreYazici/Centik</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anki Miner</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/0xzerolight/anki_miner/main/anki_miner/gui/resources/icons/anki_miner.svg" alt="Anki Miner" width="64" height="64" /></p><p>Desktop app for automated Anki language vocabulary card creation from video, audio, manga and books, in 32 languages.</p><p><strong>GitHub:</strong> <a href="https://github.com/0xzerolight/anki_miner">https://github.com/0xzerolight/anki_miner</a></p><p>Kategorien: productivity · Sprachen: python</p>]]></description>
+      <link>https://github.com/0xzerolight/anki_miner</link>
+      <guid isPermaLink="false">https://github.com/0xzerolight/anki_miner</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lumilo</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/kotuke/lumilo/main/docs/images/icon.png" alt="Lumilo" width="64" height="64" /></p><p>Menu bar app that runs Splash or llama.cpp servers, shows memory and token speed, and downloads models from Hugging Face.</p><p><strong>GitHub:</strong> <a href="https://github.com/kotuke/lumilo">https://github.com/kotuke/lumilo</a></p><p>Kategorien: development, menubar · Sprachen: go</p>]]></description>
+      <link>https://github.com/kotuke/lumilo</link>
+      <guid isPermaLink="false">https://github.com/kotuke/lumilo</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>PullBull</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/rustycamper/pullbull/main/docs/icon/AppIcon.svg" alt="PullBull" width="64" height="64" /></p><p>GitHub pull requests, issues and Projects boards in the menu bar.</p><p><strong>GitHub:</strong> <a href="https://github.com/rustycamper/pullbull">https://github.com/rustycamper/pullbull</a></p><p>Kategorien: git, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/rustycamper/pullbull</link>
+      <guid isPermaLink="false">https://github.com/rustycamper/pullbull</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>JUMP</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/alvaldes/jump/main/docs/assets/icon.png" alt="JUMP" width="64" height="64" /></p><p>Keyboard-driven navigation that labels every clickable element so you can click, scroll and search any app without the mouse.</p><p><strong>GitHub:</strong> <a href="https://github.com/alvaldes/jump">https://github.com/alvaldes/jump</a></p><p><strong>Website:</strong> <a href="https://alvaldes.github.io/jump/">https://alvaldes.github.io/jump/</a></p><p>Kategorien: keyboard, productivity · Sprachen: swift</p>]]></description>
+      <link>https://github.com/alvaldes/jump</link>
+      <guid isPermaLink="false">https://github.com/alvaldes/jump</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>TokenTracker</title>
+      <description><![CDATA[<p><img src="https://www.tokentracker.cc/app-icon.png" alt="TokenTracker" width="64" height="64" /></p><p>Local-first menu bar app and CLI that tracks AI token usage and estimated cost across Claude Code, Codex, Cursor, Gemini, Copilot and more without reading prompts.</p><p><strong>GitHub:</strong> <a href="https://github.com/xiufengsun/TokenTracker">https://github.com/xiufengsun/TokenTracker</a></p><p><strong>Website:</strong> <a href="https://www.tokentracker.cc">https://www.tokentracker.cc</a></p><p>Kategorien: menubar, development · Sprachen: swift, typescript</p>]]></description>
+      <link>https://github.com/xiufengsun/TokenTracker</link>
+      <guid isPermaLink="false">https://github.com/xiufengsun/TokenTracker</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vauta</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/MaquinaTech/Vauta/main/docs/assets/icon-1024.png" alt="Vauta" width="64" height="64" /></p><p>Meeting notes that stay on your Mac: transcribes any call on device and writes cited minutes, decisions and tasks.</p><p><strong>GitHub:</strong> <a href="https://github.com/MaquinaTech/Vauta">https://github.com/MaquinaTech/Vauta</a></p><p><strong>Website:</strong> <a href="https://vauta.vercel.app/">https://vauta.vercel.app/</a></p><p>Kategorien: audio, productivity · Sprachen: swift</p>]]></description>
+      <link>https://github.com/MaquinaTech/Vauta</link>
+      <guid isPermaLink="false">https://github.com/MaquinaTech/Vauta</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Show Desktop</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/stanczykwyatt/show-desktop/main/docs/icon.png" alt="Show Desktop" width="64" height="64" /></p><p>Hides every window with one click or a shortcut to show the Desktop, then brings them all back exactly as they were.</p><p><strong>GitHub:</strong> <a href="https://github.com/stanczykwyatt/show-desktop">https://github.com/stanczykwyatt/show-desktop</a></p><p><strong>Website:</strong> <a href="https://stanczykwyatt.github.io/show-desktop/">https://stanczykwyatt.github.io/show-desktop/</a></p><p>Kategorien: window-management, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/stanczykwyatt/show-desktop</link>
+      <guid isPermaLink="false">https://github.com/stanczykwyatt/show-desktop</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuietSpeech</title>
+      <description><![CDATA[<p><img src="https://quietspeech.app/assets/icon-512.png" alt="QuietSpeech" width="64" height="64" /></p><p>Push-to-talk dictation for Apple silicon that types into any app using Apple&#x27;s on-device speech recognition and Apple Intelligence, with no API key. Paid app; source under GPLv3 (macOS 26+).</p><p><strong>GitHub:</strong> <a href="https://github.com/harshtomar6/quietspeech">https://github.com/harshtomar6/quietspeech</a></p><p><strong>Website:</strong> <a href="https://quietspeech.app/">https://quietspeech.app/</a></p><p>Kategorien: audio, productivity, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/harshtomar6/quietspeech</link>
+      <guid isPermaLink="false">https://github.com/harshtomar6/quietspeech</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>HideNotch</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/niklasravnsborg/HideNotch/main/.github/icon.png" alt="HideNotch" width="64" height="64" /></p><p>Paints the menu bar black on MacBooks with a notch, so the notch blends in, and can round the screen corners.</p><p><strong>GitHub:</strong> <a href="https://github.com/niklasravnsborg/HideNotch">https://github.com/niklasravnsborg/HideNotch</a></p><p><strong>Website:</strong> <a href="https://hidenotch.app">https://hidenotch.app</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
+      <link>https://github.com/niklasravnsborg/HideNotch</link>
+      <guid isPermaLink="false">https://github.com/niklasravnsborg/HideNotch</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Content Factory</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/jutsuhq/content-factory/main/app/src-tauri/icons/128x128@2x.png" alt="Content Factory" width="64" height="64" /></p><p>Faceless video generator for TikTok, YouTube Shorts and Reels: a script becomes a vertical video with AI frames, voiceover and subtitles.</p><p><strong>GitHub:</strong> <a href="https://github.com/jutsuhq/content-factory">https://github.com/jutsuhq/content-factory</a></p><p><strong>Website:</strong> <a href="https://jutsustudio.com/content-factory/">https://jutsustudio.com/content-factory/</a></p><p>Kategorien: video · Sprachen: python, typescript, rust</p>]]></description>
+      <link>https://github.com/jutsuhq/content-factory</link>
+      <guid isPermaLink="false">https://github.com/jutsuhq/content-factory</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pixtamer</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/heysidhant/pixtamer/main/App/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512.png" alt="Pixtamer" width="64" height="64" /></p><p>Batch convert, compress, resize and rename images into web-ready JPEG, PNG, WebP and AVIF, with responsive widths and presets.</p><p><strong>GitHub:</strong> <a href="https://github.com/heysidhant/pixtamer">https://github.com/heysidhant/pixtamer</a></p><p><strong>Website:</strong> <a href="https://sidhantsinha.com/apps/pixtamer">https://sidhantsinha.com/apps/pixtamer</a></p><p>Kategorien: images · Sprachen: swift</p>]]></description>
+      <link>https://github.com/heysidhant/pixtamer</link>
+      <guid isPermaLink="false">https://github.com/heysidhant/pixtamer</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ghostty-designer</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/reemus-dev/ghostty-designer/main/crates/app/icons/512x512.png" alt="ghostty-designer" width="64" height="64" /></p><p>Visual editor for Ghostty terminal themes, colours, fonts and window settings, with every change previewed live in your open terminals.</p><p><strong>GitHub:</strong> <a href="https://github.com/reemus-dev/ghostty-designer">https://github.com/reemus-dev/ghostty-designer</a></p><p>Kategorien: terminal, development · Sprachen: rust, typescript</p>]]></description>
+      <link>https://github.com/reemus-dev/ghostty-designer</link>
+      <guid isPermaLink="false">https://github.com/reemus-dev/ghostty-designer</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ghbdtn</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/skriptoff/Ghbdtn/main/docs/icon.png" alt="Ghbdtn" width="64" height="64" /></p><p>Menu bar app that fixes text typed in the wrong keyboard layout (English/Russian) with an Option+Command tap: converts the selection or the last word and switches the layout.</p><p><strong>GitHub:</strong> <a href="https://github.com/skriptoff/Ghbdtn">https://github.com/skriptoff/Ghbdtn</a></p><p>Kategorien: keyboard, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/skriptoff/Ghbdtn</link>
+      <guid isPermaLink="false">https://github.com/skriptoff/Ghbdtn</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copy 2FA</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/stanczykwyatt/copy-2fa/main/docs/icon.png" alt="Copy 2FA" width="64" height="64" /></p><p>Copies the newest 2FA code from Mail or Messages with one shortcut, and includes a Touch ID authenticator for TOTP and HOTP codes.</p><p><strong>GitHub:</strong> <a href="https://github.com/stanczykwyatt/copy-2fa">https://github.com/stanczykwyatt/copy-2fa</a></p><p><strong>Website:</strong> <a href="https://stanczykwyatt.github.io/copy-2fa/">https://stanczykwyatt.github.io/copy-2fa/</a></p><p>Kategorien: security, menubar · Sprachen: swift</p>]]></description>
+      <link>https://github.com/stanczykwyatt/copy-2fa</link>
+      <guid isPermaLink="false">https://github.com/stanczykwyatt/copy-2fa</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>OLIV</title>
+      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/chayapats/oliv/main/oliv_logo_assets/oliv-app-icon-light-512.png" alt="OLIV" width="64" height="64" /></p><p>Push-to-talk dictation for Thai mixed with English that runs Typhoon Whisper and Gemma on-device with MLX and types English tech words in English instead of Thai script.</p><p><strong>GitHub:</strong> <a href="https://github.com/chayapats/oliv">https://github.com/chayapats/oliv</a></p><p><strong>Website:</strong> <a href="https://chayapats.github.io/oliv/">https://chayapats.github.io/oliv/</a></p><p>Kategorien: audio, productivity, menubar · Sprachen: swift, rust</p>]]></description>
+      <link>https://github.com/chayapats/oliv</link>
+      <guid isPermaLink="false">https://github.com/chayapats/oliv</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>mcpock</title>
+      <description><![CDATA[<p><img src="https://mcpock.com/assets/icons/icon-dark.png" alt="mcpock" width="64" height="64" /></p><p>Menu bar app that checks every MCP server your AI agents use and shows which are broken, slow, waiting for a sign-in, or set up differently.</p><p><strong>GitHub:</strong> <a href="https://github.com/aka-kika/mcpock">https://github.com/aka-kika/mcpock</a></p><p><strong>Website:</strong> <a href="https://mcpock.com">https://mcpock.com</a></p><p>Kategorien: menubar, development · Sprachen: swift</p>]]></description>
+      <link>https://github.com/aka-kika/mcpock</link>
+      <guid isPermaLink="false">https://github.com/aka-kika/mcpock</guid>
+      <pubDate>Thu, 29 Oct 2026 21:50:02 +0000</pubDate>
+    </item>
     <item>
       <title>KeyEcho</title>
       <description><![CDATA[<p><img src="https://raw.githubusercontent.com/ZacharyL2/KeyEcho/main/src-tauri/icons/128x128@2x.png" alt="KeyEcho" width="64" height="64" /></p><p>Plays recorded mechanical keyboard sounds as you type.</p><p><strong>GitHub:</strong> <a href="https://github.com/ZacharyL2/KeyEcho">https://github.com/ZacharyL2/KeyEcho</a></p><p><strong>Website:</strong> <a href="https://keyecho.app">https://keyecho.app</a></p><p>Kategorien: audio, keyboard · Sprachen: rust, typescript</p>]]></description>
@@ -424,48 +704,6 @@
       <description><![CDATA[<p>Fast, native macOS code editor under 1 MB built with Swift and AppKit, no Electron.</p><p><strong>GitHub:</strong> <a href="https://github.com/arietan/lite-edit">https://github.com/arietan/lite-edit</a></p><p><strong>Website:</strong> <a href="https://arietan.github.io/lite-edit/">https://arietan.github.io/lite-edit/</a></p><p>Kategorien: editors, text · Sprachen: swift</p>]]></description>
       <link>https://github.com/arietan/lite-edit</link>
       <guid isPermaLink="false">https://github.com/arietan/lite-edit</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anima</title>
-      <description><![CDATA[<p>Native macOS companion for Claude Code with per-project ASCII familiars, nim token economy, and cross-session watcher. Built with Tauri v2.</p><p><strong>GitHub:</strong> <a href="https://github.com/btangonan/anima">https://github.com/btangonan/anima</a></p><p>Kategorien: development, utilities · Sprachen: rust, javascript</p>]]></description>
-      <link>https://github.com/btangonan/anima</link>
-      <guid isPermaLink="false">https://github.com/btangonan/anima</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>HardwareVisualizer</title>
-      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/shm11C3/HardwareVisualizer/develop/app-icon.png" alt="HardwareVisualizer" width="64" height="64" /></p><p>A cross-platform hardware monitor with real-time metrics, historical insights, and a customizable dashboard.</p><p><strong>GitHub:</strong> <a href="https://github.com/shm11C3/HardwareVisualizer">https://github.com/shm11C3/HardwareVisualizer</a></p><p><strong>Website:</strong> <a href="https://hardviz.com/">https://hardviz.com/</a></p><p>Kategorien: system, utilities · Sprachen: rust, typescript</p>]]></description>
-      <link>https://github.com/shm11C3/HardwareVisualizer</link>
-      <guid isPermaLink="false">https://github.com/shm11C3/HardwareVisualizer</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>ClearanceKit</title>
-      <description><![CDATA[<p><img src="https://raw.githubusercontent.com/craigjbass/clearancekit/main/docs/logo.png" alt="ClearanceKit" width="64" height="64" /></p><p>File-access control for macOS that protects sensitive user data from supply-chain attacks using Endpoint Security.</p><p><strong>GitHub:</strong> <a href="https://github.com/craigjbass/clearancekit">https://github.com/craigjbass/clearancekit</a></p><p><strong>Website:</strong> <a href="https://craigjbass.github.io/clearancekit">https://craigjbass.github.io/clearancekit</a></p><p>Kategorien: security · Sprachen: swift</p>]]></description>
-      <link>https://github.com/craigjbass/clearancekit</link>
-      <guid isPermaLink="false">https://github.com/craigjbass/clearancekit</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>EnviousWispr</title>
-      <description><![CDATA[<p>Free on-device AI dictation for macOS with Whisper and Parakeet speech models on Apple Silicon.</p><p><strong>GitHub:</strong> <a href="https://github.com/saurabhav88/EnviousWispr">https://github.com/saurabhav88/EnviousWispr</a></p><p><strong>Website:</strong> <a href="https://enviouswispr.com/">https://enviouswispr.com/</a></p><p>Kategorien: audio · Sprachen: swift</p>]]></description>
-      <link>https://github.com/saurabhav88/EnviousWispr</link>
-      <guid isPermaLink="false">https://github.com/saurabhav88/EnviousWispr</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claudoscope</title>
-      <description><![CDATA[<p><img src="https://claudoscope.com/logo.webp" alt="Claudoscope" width="64" height="64" /></p><p>Menu bar app for Claude Code session analytics with real-time secret detection, config health linting, and token/cost tracking.</p><p><strong>GitHub:</strong> <a href="https://github.com/cordwainersmith/claudoscope">https://github.com/cordwainersmith/claudoscope</a></p><p><strong>Website:</strong> <a href="https://claudoscope.com/">https://claudoscope.com/</a></p><p>Kategorien: menubar, utilities · Sprachen: swift</p>]]></description>
-      <link>https://github.com/cordwainersmith/claudoscope</link>
-      <guid isPermaLink="false">https://github.com/cordwainersmith/claudoscope</guid>
-      <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Safari MCP</title>
-      <description><![CDATA[<p>Native Safari browser automation for AI agents on macOS, exposing 98 tools via AppleScript and JavaScript.</p><p><strong>GitHub:</strong> <a href="https://github.com/achiya-automation/safari-mcp">https://github.com/achiya-automation/safari-mcp</a></p><p>Kategorien: browser · Sprachen: javascript</p>]]></description>
-      <link>https://github.com/achiya-automation/safari-mcp</link>
-      <guid isPermaLink="false">https://github.com/achiya-automation/safari-mcp</guid>
       <pubDate>Sat, 24 Oct 2026 12:02:59 +0000</pubDate>
     </item>
   </channel>
