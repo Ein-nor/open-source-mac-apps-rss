@@ -426,6 +426,7 @@
     "https://github.com/ezzy1630/Downright",
     "https://github.com/fabiusBile/Spotify4BigSur",
     "https://github.com/fand/json-editor-app",
+    "https://github.com/farion1231/cc-switch",
     "https://github.com/felixhageloh/uebersicht",
     "https://github.com/fespinoza/LinkedIdeas",
     "https://github.com/ffittschen/IsItPrivate",
@@ -988,6 +989,7 @@
     "https://svn.wildfiregames.com/public/ps/trunk/"
   ],
   "items": [
+    "https://github.com/farion1231/cc-switch",
     "https://github.com/teconomix/local-transcriber",
     "https://github.com/Alekla0126/alchemist-coder",
     "https://github.com/gwenn-ha-dev/Siliconed",
@@ -1086,10 +1088,16 @@
     "https://github.com/sj719045032/claude-statistics",
     "https://github.com/offyotto/Core-Monitor",
     "https://github.com/vorojar/md-preview",
-    "https://github.com/momenbasel/PureMac",
-    "https://github.com/arietan/lite-edit"
+    "https://github.com/momenbasel/PureMac"
   ],
   "feed_items": [
+    {
+      "title": "CC Switch",
+      "description": "<p><img src=\"https://raw.githubusercontent.com/farion1231/cc-switch/main/src-tauri/icons/128x128.png\" alt=\"CC Switch\" width=\"64\" height=\"64\" /></p><p>Cross-platform desktop assistant for switching API providers in one click and managing MCP servers, skills and prompts for Claude Code, Codex, Gemini CLI, OpenCode and other AI coding agents.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/farion1231/cc-switch\">https://github.com/farion1231/cc-switch</a></p><p><strong>Website:</strong> <a href=\"https://ccswitch.io\">https://ccswitch.io</a></p><p>Kategorien: development, utilities · Sprachen: rust, typescript</p>",
+      "link": "https://github.com/farion1231/cc-switch",
+      "guid": "https://github.com/farion1231/cc-switch",
+      "pubDate": "Sat, 31 Oct 2026 13:41:03 +0000"
+    },
     {
       "title": "Local Transcriber",
       "description": "<p><img src=\"https://raw.githubusercontent.com/teconomix/local-transcriber/main/website/assets/icon.svg\" alt=\"Local Transcriber\" width=\"64\" height=\"64\" /></p><p>Menu bar app that records meetings and calls and transcribes them locally with Whisper and pyannote speaker recognition, with dictation into any app.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/teconomix/local-transcriber\">https://github.com/teconomix/local-transcriber</a></p><p><strong>Website:</strong> <a href=\"https://transcriber.teconomix.net\">https://transcriber.teconomix.net</a></p><p>Kategorien: audio, menubar · Sprachen: swift, python</p>",
@@ -1781,13 +1789,6 @@
       "description": "<p><img src=\"https://raw.githubusercontent.com/momenbasel/PureMac/main/PureMac/Assets.xcassets/AppIcon.appiconset/icon_256.png\" alt=\"PureMac\" width=\"64\" height=\"64\" /></p><p>Free macOS cleaner with zero telemetry. Cleans system caches, Xcode junk, Homebrew cache, mail attachments, and finds large or old files. Supports scheduled auto-cleaning.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/momenbasel/PureMac\">https://github.com/momenbasel/PureMac</a></p><p>Kategorien: utilities, system · Sprachen: swift</p>",
       "link": "https://github.com/momenbasel/PureMac",
       "guid": "https://github.com/momenbasel/PureMac",
-      "pubDate": "Sat, 24 Oct 2026 12:02:59 +0000"
-    },
-    {
-      "title": "LiteEdit",
-      "description": "<p>Fast, native macOS code editor under 1 MB built with Swift and AppKit, no Electron.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/arietan/lite-edit\">https://github.com/arietan/lite-edit</a></p><p><strong>Website:</strong> <a href=\"https://arietan.github.io/lite-edit/\">https://arietan.github.io/lite-edit/</a></p><p>Kategorien: editors, text · Sprachen: swift</p>",
-      "link": "https://github.com/arietan/lite-edit",
-      "guid": "https://github.com/arietan/lite-edit",
       "pubDate": "Sat, 24 Oct 2026 12:02:59 +0000"
     }
   ]
